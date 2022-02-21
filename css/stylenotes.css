@@ -1,0 +1,61 @@
+
+body {
+    background-color: #2d2d2d;
+    color: beige;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #eaece5;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+ font-weight: lighter;   
+ color: bisque;
+}
+
+a { 
+    display: block; 
+    text-decoration: none; 
+    padding: 5px; 
+}
+
+a:link {
+    color: whitesmoke;
+}
+    
+a:visited {
+    color: whitesmoke;
+}
+  
+  
+a:hover {
+    color: rgb(252, 218, 218);
+}
+    
+a:active {
+    color: rgb(117, 117, 133);
+}
+
+div.main {
+    width: 80%;   
+    margin: 0 auto;
+}
+
+p {
+    margin-top: -20px;
+    font-size: smaller;
+    color: beige;
+}
+
+table {
+    border: 1px solid beige;
+    table-layout: fixed;        
+}
+
+td {
+    border: 1px solid beige;
+    padding: 5px;
+}

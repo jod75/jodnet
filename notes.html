@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="JODnet">
+
+    <title>JODnet</title>
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>   
+
+    <link rel="stylesheet" type="text/css" href="./css/stylenotes.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>JODnet Notes</h1>                
+        <hr>          
+        <div><button onclick="location.href='index.html';">Back to main page</button> <button onClick="window.location.reload(true);">Refresh Page</button></div>
+        <hr>
+        <br>
+        <div id="myNotes">
+            <zero-md src="./data/mynotes.md"
+                css-urls='["./css/stylenotes.css"]'></zero-md> 
+        </div>        
+        <br>          
+    </div>
+</body>
+
+</html>

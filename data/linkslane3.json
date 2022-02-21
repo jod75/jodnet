@@ -1,0 +1,24 @@
+{
+  "links": [
+    {
+      "title": "Google",
+      "url": "https://www.google.com/"
+    },   
+    {
+      "title": "Microsoft Office",
+      "url": "https://www.office.com/?auth=2"
+    },
+    {
+      "title": "Microsoft Docs",
+      "url": "https://docs.microsoft.com/en-us/"
+    },
+    {
+      "title": "Microsoft MSDN",
+      "url": "https://visualstudio.microsoft.com/subscriptions/"
+    },
+    {
+      "title": "Azure Portal",
+      "url": "https://portal.azure.com/"
+    }
+  ]
+}

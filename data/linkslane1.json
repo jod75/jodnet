@@ -1,0 +1,12 @@
+{
+  "links": [
+    {
+      "title": "Server 1",
+      "url": "url for server 1"
+    },
+    {
+      "title": "Service 2",
+      "url": "url for service 2"
+    }
+  ]
+}
